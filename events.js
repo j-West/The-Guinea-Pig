@@ -2,6 +2,7 @@ var outputTarget = document.querySelector("#output-target")
 var header1 = document.querySelector("h1")
 var inputField = document.querySelector("input")
 var guineaPig = document.querySelector("#guinea-pig")
+var buttons = document.querySelectorAll("button")
 
 document.querySelector("article").addEventListener("click", (e) => {
   outputTarget.innerHTML = `<p>You clicked on the ${e.target.innerHTML} section`
@@ -38,4 +39,11 @@ document.querySelector("#add-rounding").addEventListener("click", (e) => {
   guineaPig.classList.add("rounded")
 })
 
+
 document.querySelector("article").firstElementChild.classList.add("bold-text")
+
+document.querySelector("article").lastElementChild.classList.add("bold-text", "italic-text")
+
+for (var i = 0; i < buttons.length; i++) {
+  buttons[i].classList.add("display-block-class")
+}
