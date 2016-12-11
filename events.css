@@ -17,3 +17,11 @@
 .bold-text {
   font-weight: bold;
 }
+
+.italic-text {
+  font-style: italic;
+}
+
+.display-block-class {
+  display: block;
+}
