@@ -1,0 +1,19 @@
+.color-blue {
+  color: blue;
+}
+
+.large-text {
+  font-size: 5em;
+}
+
+.add-border {
+  border: 2px solid burlywood;
+}
+
+.rounded {
+  border-radius: 20%;
+}
+
+.bold-text {
+  font-weight: bold;
+}
